@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="pokemon-card-container">
+        <div class="pokemon-card">
+            <p class="hp">HP: <span>80</span></p>
+            <div class="card-info">
+                <img id="pokemon-img"src="img/char.png" alt="pokemon-img">
+                <p class="name">Name: <span>Test Test</span></p>
+                <div class="types">
+                </div>
+                <div class="abillities">
+                    <div class="abillities-container">
+                        <p id="attack">Attack : </p>
+                        <div class="progress-bar-container">
+                            <div id="attack-pb" class="progress-bar"></div>
+                        </div>
+                    </div>
+                    <div class="abillities-container">
+                        <p id="defense">Defense : </p>
+                        <div class="progress-bar-container">
+                            <div id="defense-pb" class="progress-bar"></div>
+                        </div>
+                    </div>
+                    <div class="abillities-container">
+                        <p id="speed">Speed : </p>
+                        <div id="speed-pb" class="progress-bar-container">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <button id="generate-btn">Generate</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
